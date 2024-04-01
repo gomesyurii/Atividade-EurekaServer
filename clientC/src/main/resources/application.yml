@@ -1,0 +1,11 @@
+server:
+  port: 8764 # or your preferred port
+
+spring:
+  application: 
+    name: client-c
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
